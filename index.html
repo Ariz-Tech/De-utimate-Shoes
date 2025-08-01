@@ -8,51 +8,51 @@
 </head>
 <body>
     <!--Hero/Nav section-->
-    <section class='hero'>
-        <div class="">
-            <nav class="flex justify-between align-center shadow-md p-4 rounded-2xl inset-4">
-                <div><span><img src="" alt=""></span>De Ultimate Cobbler</div>
+    <section class='hero bg-red-400 flex flex-col p-4 justify-center'>
+            <nav class="flex backdrop-blur-md justify-between bg-white/30 items-center shadow-md p-4 rounded-2xl inset-4">
+                <div class="flex gap-3 justify-center items-center"><span><img src="/assets/images/logo.png" alt="" class="w-10"></span>De Ultimate Cobbler</div>
                 <ul class='flex gap-4'>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
+                    <li><a href="/" class="underline text-amber-900">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#gallery">Gallery</a></li>
                 </ul>
-                <a href="#contact" class="btn">Contact Us</a>
+                <a href="#contact" class="p-2 rounded-lg text-white bg-amber-900">Contact Us</a>
             </nav>
-            <div class="hero-txt">
+            <div class="flex flex-col items-center justify-center text-center mt-8">
                 <h1>Where Every Shoe Tells a Story.</h1>
                 <p>From timeless repairs to doorstep delivery, we bring premium footwear solutions to you, for every sole and every style.</p>
-                <div class="btns hero-btns">
-                    <a href="#services" class="btn btn-1"><span>Order Custom Shoes </span><span><img src="assets/images/arrow.svg" alt="arrow"></span></a>
-                    <a href="#contact" class="btn btn-2"><span>View Our Work </span><span><img src="assets/images/arrow.svg" alt="arrow"></span></a>
+                <div class="flex gap-4">
+                    <a href="#services" class="flex p-2 gap-2 items-center text-white bg-amber-900 rounded-lg"><span>Order Custom Shoes </span><span><img src="assets/images/arrow.svg" alt="arrow"></span></a>
+                    <a href="#contact" class="flex p-2 gap-2 items-center bg-transparent text-amber-900 border border-amber-900 rounded-lg"><span>View Our Work </span><span><img src="assets/images/arrow.svg" alt="arrow"></span></a>
                 </div>
             </div>
-        </div>
     </section>
     <!--Services Section-->
-    <section class="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <p>Everything your shoes need, from sales to repairs, pickups to doorstep delivery.</p>
-            <div class="services-list">
-                <div class="service">
+    <section class="bg-[#bb4343] p-4" id="services">
+        <div class="flex flex-col items-center justify-center">
+            <div class="max-w-[600px] text-center">
+                <h2>Our Services</h2>
+                <p>Everything your shoes need, from sales to repairs, pickups to doorstep delivery.</p>
+            </div>
+            <div class="flex justify-center gap-4 mt-8">
+                <div class="flex flex-col p-2 rounded-md shadow-md bg-white">
                     <img src="" alt="">
                     <h3>Shoe Repairs</h3>
                     <p>We restore life to your favorite pairs — heels, soles, stitching, polish, zippers, and more. Whether it’s a quick fix or a full restoration, we make your shoes look new again.</p>
                 </div>
-                <div class="service">
+                <div class="flex flex-col p-2 rounded-md shadow-md bg-white">
                     <img src="" alt="">
                     <h3>Custom Shoe Making</h3>
                     <p>Step into something made just for you. From classic leather to bold designs, we craft high-quality footwear tailored to your size, style, and comfort.</p>
                 </div>
-                <div class="service">
+                <div class="flex flex-col p-2 rounded-md shadow-md bg-white">
                     <img src="" alt="">
                     <h3>Shoe Sales</h3>
                     <p>Explore our curated selection of stylish, durable shoes for men and women — perfect for work, casual outings, or special occasions.</p>
                 </div>
             </div>
-            <a href="" class='btn'><span>Learn More</span><span><img src="/assets/images/arrow.svg" alt=""></span></a>
+            <a href="" class='flex p-2 gap-2 items-center text-white bg-amber-900 rounded-lg'><span>Learn More</span><span><img src="/assets/images/arrow.svg" alt=""></span></a>
         </div>
     </section>
     <!--Why Choose Us Section-->
@@ -60,36 +60,36 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#D9D9D9" fill-opacity="1" d="M0,160L120,181.3C240,203,480,245,720,240C960,235,1200,181,1320,154.7L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
         </svg>
-        <div class="container">
-            <div class="left">
+        <div class="flex">
+            <div class="w-1/2">
                 <img src="/assets/images/logo.png" alt="">
             </div>
-            <div class="right">
+            <div class="flex flex-col justify-center w-1/2">
                 <h2>Why Choose De Ultimate Cobbler?</h2>
                 <p>Because your shoes deserve more than just a fix, they deserve care, craft, and class.</p>
-                <ul>
-                    <li>
+                <ul class="flex flex-col gap-4 mt-4">
+                    <li class="flex items-start gap-4">
                         <img src="/assets/images/skilled.svg" alt="arrow">
                         <div>
                             <h4>Expert craftsmanship</h4>
                             <p>Years of experience in quality shoe making and professional repairs.</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="flex items-start gap-4">
                         <img src="/assets/images/experience.svg" alt="arrow">
                         <div>
                             <h4>Effortless Experience</h4>
                             <p>From order to delivery, we’ve streamlined every step to be stress-free and on your terms.</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="flex items-start gap-4">
                         <img src="/assets/images/shoe.svg" alt="arrow">
                         <div>
                             <h4>Style for Every Step</h4>
                             <p>We serve both men and women with quality, comfort, and style.</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="flex items-start gap-4">
                         <img src="/assets/images/fast.svg" alt="arrow">
                         <div>
                             <h4>Fast & Reliable Service</h4>
