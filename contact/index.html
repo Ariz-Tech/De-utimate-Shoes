@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/output.css">
+    <title>De Ultimate Cobbler</title>
+</head>
+<body>
+    <!--Hero/Nav section-->
+    <section class='hero bg-[#D9D9D9] flex flex-col justify-center'>
+        <div class="p-4 pb-16 bg-[url('../assets/images/contactHero.svg')] bg-contain bg-center">
+            <nav class="flex backdrop-blur-md justify-between bg-white/30 items-center shadow-md p-4 rounded-2xl inset-4">
+                <div class="flex gap-3 justify-center items-center"><span><img src="../assets/images/logo.png" alt="" class="w-10"></span>De Ultimate Cobbler</div>
+                <ul class='hidden md:flex gap-4'>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+                <a href="/contact" class="p-2 rounded-lg text-white bg-amber-900 flex items-center gap-2">
+                    <span>Contact Us</span>
+                    <span>
+                        <svg width="25" height="14" viewBox="0 0 25 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.0207 0.251079C14.2607 0.953188 15.3127 1.76452 16.3157 2.40451C17.6065 3.2314 19.0239 3.85336 20.5191 4.18663C21.6402 4.43643 22.9503 4.59624 23.8549 4.287M23.8549 4.287C22.9503 4.59624 22.0112 5.52493 21.2786 6.4084C20.3007 7.58817 19.5606 8.94763 19.0454 10.3898C18.6445 11.5108 18.3099 12.7982 18.5493 13.4984M23.8549 4.287L1.14518 12.0502" stroke="currentColor" stroke-width="1.4"/>
+                        </svg>
+                    </span>
+                </a>
+            </nav>
+            <div class="flex flex-col items-center justify-center text-center mt-8">
+                <h1 class="text-4xl font-bold">Where Craft Meets Comfort</h1>
+                <p class="font-semibold">At De Ultimate Cobbler, we believe shoes are more than just fashion, they’re an extension of you. That’s why we’re dedicated to restoring, designing, and delivering footwear that feels just right.</p>
+                <div class="flex gap-4">
+                    <a href="/services" class="flex p-2 gap-2 items-center text-white bg-amber-950 rounded-lg">
+                        <span>Order Custom Shoes </span>
+                        <span>
+                            <svg width="25" height="14" viewBox="0 0 25 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.0207 0.251079C14.2607 0.953188 15.3127 1.76452 16.3157 2.40451C17.6065 3.2314 19.0239 3.85336 20.5191 4.18663C21.6402 4.43643 22.9503 4.59624 23.8549 4.287M23.8549 4.287C22.9503 4.59624 22.0112 5.52493 21.2786 6.4084C20.3007 7.58817 19.5606 8.94763 19.0454 10.3898C18.6445 11.5108 18.3099 12.7982 18.5493 13.4984M23.8549 4.287L1.14518 12.0502" stroke="currentColor" stroke-width="1.4"/>
+                            </svg>
+                        </span>
+                    </a>
+                    <a href="/contact" class="flex p-2 gap-2 items-center bg-transparent text-amber-950 border border-amber-950 rounded-lg">
+                        <span>View Our Work </span>
+                        <span>
+                            <svg width="25" height="14" viewBox="0 0 25 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.0207 0.251079C14.2607 0.953188 15.3127 1.76452 16.3157 2.40451C17.6065 3.2314 19.0239 3.85336 20.5191 4.18663C21.6402 4.43643 22.9503 4.59624 23.8549 4.287M23.8549 4.287C22.9503 4.59624 22.0112 5.52493 21.2786 6.4084C20.3007 7.58817 19.5606 8.94763 19.0454 10.3898C18.6445 11.5108 18.3099 12.7982 18.5493 13.4984M23.8549 4.287L1.14518 12.0502" stroke="currentColor" stroke-width="1.4"/>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!--Services Section-->
+        <section class="bg-[#D9D9D9] p-4" id="story">
+            <div class="flex flex-col md:flex-row gap-5">
+                <form action="" class="flex flex-col gap-4 md:w-1/2 rounded border border-[#D5D5D5] p-4 shadow-md">
+                    <h2 class="font-bold">Send a Message</h2>
+                    <input type="text" placeholder="Your Name" class="border p-2 rounded bg-[#D1D2D7]" name="name" required>
+                    <input type="email" placeholder="Your Email" class="border p-2 rounded bg-[#D1D2D7]" name="email" required>
+                    <textarea placeholder="Your Message" rows="4" class="border p-2 rounded bg-[#D1D2D7]" name="message" required></textarea>
+                    <button type="submit" class="bg-amber-950 text-white p-2 rounded-lg flex items-center justify-center gap-2 w-fit">
+                        <span>Send Message</span>
+                        <span>
+                            <svg width="25" height="14" viewBox="0 0 25 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.0207 0.251079C14.2607 0.953188 15.3127 1.76452 16.3157 2.40451C17.6065 3.2314 19.0239 3.85336 20.5191 4.18663C21.6402 4.43643 22.9503 4.59624 23.8549 4.287M23.8549 4.287C22.9503 4.59624 22.0112 5.52493 21.2786 6.4084C20.3007 7.58817 19.5606 8.94763 19.0454 10.3898C18.6445 11.5108 18.3099 12.7982 18.5493 13.4984M23.8549 4.287L1.14518 12.0502" stroke="currentColor" stroke-width="1.4"/>
+                            </svg>
+                        </span>
+                </button>
+            </form>
+            <div class="rounded shadow-sm border p-4 flex flex-col gap-4 md:w-1/2">
+                <h2 class="font-bold">Get in Touch</h2>
+                <p class="flex items-center gap-2">
+                    <ion-icon name="location-outline"></ion-icon>
+                    <span>White sand street Lekki phase I Lagos, Eti-Osa, Lekki</span>
+                </p>
+                <p class="flex items-center gap-2">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <span> info@deultimatecobbler.com</span>
+                </p>
+                <p class="flex items-center gap-2">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <span>+234 123 4567</span>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-[#BFC2C4]">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#D9D9D9" fill-opacity="1" d="M0,32L60,32C120,32,240,32,360,64C480,96,600,160,720,160C840,160,960,96,1080,64C1200,32,1320,32,1380,32L1440,32L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+        </svg>
+        <div class="grid grid-cols-5 px-10 pb-20 gap-8" id="footer">
+            <div>
+                <img src="../assets/images/logo.png" alt="" class="w-24">
+                <p class="font-semibold font-5">De Ultimate</p>
+                <p>Craftsmanship. Care. Class</p>
+            </div>
+            <div class="flex flex-col">
+                <h5 class="font-semibold text-5">Quick Links</h5>
+                <a href="#" class="w-fit">Home</a>
+                <a href="#" class="w-fit">About Us</a>
+                <a href="#" class="w-fit">Services</a>
+                <a href="#" class="w-fit">Contact</a>
+            </div>
+            <div class="flex flex-col">
+                <h5 class="font-semibold text-5">Socials</h5>
+                <a href="#" class="w-fit">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <span>Instagram</span>
+                </a>
+                <a href="#" class="w-fit">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <span>Facebook</span>
+                </a>
+                <a href="#" class="w-fit">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    <span>Linkedin</span>
+                </a>
+            </div>
+            <div class="flex flex-col">
+                <h5 class="font-semibold text-5">Locate Us</h5>
+                <p>
+                    <ion-icon name="location-outline"></ion-icon>
+                    <span>White sand street Lekki phase I Lagos, Eti-Osa, Lekki</span>
+                </p>
+                <a href="mailto:info@deultimatecobbler.com">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <span> info@deultimatecobbler.com</span>
+                </a>
+            </div>
+            <div class="flex flex-col">
+                <h5 class="font-semibold text-5">Business Hours</h5>
+                <p>MON - SAT</p>
+                <p>
+                    <ion-icon name="alarm-outline"></ion-icon>    
+                    <span>9:00 AM - 7:00 PM</span>
+                </p>
+                <p>
+                    <p>SUN</p>
+                    <ion-icon name="alarm-outline"></ion-icon>
+                    <span>Closed</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
